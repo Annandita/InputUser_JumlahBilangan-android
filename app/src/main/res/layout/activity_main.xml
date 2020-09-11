@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menjumlahkan Dua Buah Bilangan"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/bilangan1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@android:color/black"
+        android:hint="Masukan bilangan pertama"/>
+
+    <EditText
+        android:id="@+id/bilangan2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@android:color/black"
+        android:hint="Masukan bilangan kedua"/>
+
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="HITUNG BILANGAN"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Hasil Penjumlahan"
+        android:textSize="15dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/hasilJumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
